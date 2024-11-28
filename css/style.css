@@ -1,0 +1,197 @@
+.container{
+    font-size: 100px;
+    color: red;
+}
+
+/*animation timing function start*/
+.onery{
+    font-size: 30 px;
+    font-weight: 400;
+    margin-left: 10em;
+    color: #626262;
+    text-transform: uppercase;
+    line-height: 1.5em;    
+}
+div[id^="div"]{
+    width: 150px;
+    height: 150px;
+    color:white;
+    font-weight: bold;
+    text-align: center; /* Center text if it wraps */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: relative;
+    animation:mymove 5s infinite ease;
+    border-radius: 50%;
+    display: flex; 
+}
+#div1 {
+    animation-timing-function: linear;
+}
+#div2 {
+    animation-timing-function: ease;
+}
+#div3 {
+    animation-timing-function: ease-in;
+}
+#div4 {
+    animation-timing-function: ease-in-out;
+}
+@keyframes mymove {
+    from {
+        left: 0px;
+        background-color: violet; 
+    }
+    25% {
+        left: 100px; 
+        background-color: blue; 
+    }
+    50% {
+        left: 150px; 
+        background-color: green; 
+    }
+    75% {
+        background-color: orange; 
+    }
+    to {
+        left: 800px; /* End point */
+        background-color: red; 
+    }
+}
+/*animation timing function end*/
+
+/*css cursor property start*/
+
+.alias { cursor: alias;
+ 
+
+}
+
+
+.all-scroll { cursor: all-scroll;
+
+}
+
+.auto { cursor: auto;
+
+}
+
+.cell { cursor: cell;
+
+}
+
+.col-resize { cursor: col-resize;
+
+}
+
+.context-menu { cursor: context-menu;
+
+}
+
+.copy { cursor: copy;
+
+}
+
+.crosshair { cursor: crosshair;
+
+}
+
+.default { cursor: default;
+
+}
+
+.e-resize { cursor: e-resize;
+
+}
+
+.ew-resize { cursor: ew-resize;
+
+}
+
+.grab { cursor: grab;
+
+}
+
+.grabbing { cursor: grabbing;
+
+}
+
+.help { cursor: help;
+
+}
+
+.move {cursor: move; 
+
+}
+
+.n-resize { cursor: n-resize;
+
+}
+
+.ne-resize { cursor: ne-resize;
+
+}
+
+.nswe-resize { cursor: nwse-resize;
+
+}
+
+.no-drop { cursor: no-drop;
+
+}
+
+.none { cursor: none;
+
+}
+
+.not-allowed { cursor: not-allowed;
+
+}
+
+.pointer { cursor: pointer;
+
+}
+
+.progress { cursor: progress;
+
+}
+
+.row-resize { cursor: row-resize;
+
+}
+
+.s-resize { cursor: s-resize;
+
+}
+
+.se-resize { cursor: se-resize;
+
+}
+
+.sw-resize { cursor: sw-resize;
+
+}
+
+.text { cursor: text;
+
+}
+
+.url { cursor: url;
+
+}
+
+.w-resize { cursor: w-resize;
+
+}
+
+.wait { cursor: wait;
+
+}
+
+.zoom-in { cursor: zoom-in;
+
+}
+.zoom-out { cursor: zoom-out;
+
+}
+/*css cursor property end*/
